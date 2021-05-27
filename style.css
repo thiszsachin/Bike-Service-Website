@@ -1,0 +1,263 @@
+
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 57px;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+}
+
+#logo{
+    margin: 8px 8px;
+}
+#logo img{
+    height: 50px;
+    margin: 2px -7px;;
+    border-radius: 18px;
+}
+#navbar ul{
+    display: flex;
+    /* background-color: black;
+    border-radius: 18px; */
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 158%;
+    z-index: -1;
+}
+
+
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 5px 20px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: brown;
+}
+#navbar ul li a:hover,
+#navbar    ul li a:active{
+    /* background-color:white; */
+    /* color: black; */
+    color:white;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 180px;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    font-family: 'Baloo Bhai 2', cursive; 
+}
+#home::before{
+    content: "";
+    background: url("image/img3.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    color: rgb(85, 25, 25);
+    text-align: center;
+    font-size: 3.0rem;
+    padding: 12px;
+}
+#home p{
+    color: rgb(85, 25, 25);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+#home button{
+    padding: 6px 15px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 15px;
+    
+}
+#home button:hover{
+    background-color: blue;
+    color:black;
+}
+
+.sections{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.sections h1{
+
+    font-size: 3.0rem;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+.box1{
+    border: 2px solid black;
+    border-radius: 23px;
+    padding: 28px 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 22px 5px;
+background-color: rgb(95, 150, 150);
+}
+.boxes{
+    display: flex;
+    padding: 2px 10px;
+    /* flex-direction: column; */
+}
+.box1 img{
+    height: 100px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+
+}
+.sec-heading{
+    text-align: center;
+    justify-content: center;
+    padding: 5px 5px;
+    margin: 2px auto;
+    background-color: indianred;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 27px;
+    width: 299px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+    
+}
+.sec-heading:hover{
+    background-color: black;
+    color: white;
+}
+.cline-h{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    color: tomato;
+    font-size: 2.5rem;
+}
+.items img{
+    height: 100px;
+}
+.clients::before{
+    content: "";
+    background: url("image/clients.jpg") no-repeat center center/cover;
+    position: absolute;
+
+    height: 41%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0px;
+    margin: 12px auto;
+}
+.items-clients{
+padding: 19px;
+margin: 3px auto;
+}
+#contact{
+position: relative;
+}
+
+#contact::before{
+content: "";
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.4;
+background: url("image/contact.jpg") no-repeat center center/cover;
+}
+
+.contact-h1{
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-box{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 13px;
+}
+
+ .contact-box input,
+ .contact-box textarea{
+width: 100%;
+padding: 0.3rem;
+border-radius: 9px;
+font-size: 1.1rem;
+ }
+ .contact-box form{
+
+    width: 40%;
+
+ }
+.contact-box label{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3rem;
+}
+    
+.foot{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:  4px ;
+}
+.btn{
+    padding: 6px 15px;
+    border-color: rgb(31, 26, 5);
+    background-color: rgb(41, 37, 37);
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+    margin: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.btn:hover{
+    background-color: black;
+}
+
+
+

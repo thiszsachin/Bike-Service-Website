@@ -1,0 +1,43 @@
+
+body{
+    background-color: red;
+}
+/* header section  */
+
+
+/* Home Section  */
+#home{
+    padding: 56px 0px;
+    width: 100%;
+}
+
+#home::before{
+width: 100%;
+}
+/* Service Section   */
+.boxes{
+    direction: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 275px;
+}
+.heading{
+    margin: 50px auto;
+    height: 100%;
+    width: 270px;
+    
+}
+.section-heading{
+    height: 36px;
+    width: 191px;
+}
+
+
+
+/* Or Clients Section  */
+
+
+
+/* Footer Section  */
+
+
